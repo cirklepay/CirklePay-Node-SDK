@@ -8,7 +8,7 @@
     "url": "git://github.com/username/repository.git"
   },
   "scripts": {
-    "lint": "eslint lib"
+
   },
   "author": "Muhammad Umer Naeem",
   "bugs": {
@@ -16,11 +16,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
+
   },
   "dependencies": {
     "crypto": "^1.0.1",
@@ -28,22 +24,6 @@
     "moment": "^2.17.1",
     "request": "^2.88.2",
     "winston": "^2.4.4"
-  },
-  "eslintConfig": {
-    "extends": "airbnb",
-    "env": {
-      "commonjs": true,
-      "node": true,
-      "mocha": true
-    },
-    "rules": {
-      "indent": [
-        "error",
-        4
-      ],
-      "no-underscore-dangle": 0,
-      "strict": 0,
-      "prefer-rest-params": 0
-    }
   }
+  
 }
